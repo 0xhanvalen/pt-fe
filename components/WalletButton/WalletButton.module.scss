@@ -1,0 +1,16 @@
+.walletButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1ex 2em;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0.5ex 0.5ex 0 0 black;
+    width: fit-content;
+    transition: all 0.25s;
+    &:hover {
+        cursor: pointer;
+        box-shadow: 1ex 1ex 0 0 black;
+        transform: translate(-.5ex, -.5ex);
+    }
+}
