@@ -25,7 +25,7 @@ export default function Home() {
               deployed by 0xhanvalen.
             </p>
             <p>
-              More specifically, it's a new type of lottery game: an adversarial
+              More specifically, it&apos;s a new type of lottery game: an adversarial
               lottery.
             </p>
           </div>
@@ -33,12 +33,12 @@ export default function Home() {
             <h2>Game Rules</h2>
             <p>
               Games work in rounds. The first round is a special join round,
-              followed by up to 3 "pushed" rounds. After the 3 push rounds have
+              followed by up to 3 &quot;pushed&quot; rounds. After the 3 push rounds have
               ended, a winner is determined, and they are sent nearly all of the
               ETH deposited to the contract from all players from all rounds.
             </p>
             <p>
-              Again, reiterating, this is an{" "}
+              Again, reiterating, this is an
               <strong>adversarial lottery</strong>. We&apos;ll get to the
               adversarial portion in a moment.
             </p>
@@ -59,7 +59,7 @@ export default function Home() {
                 <p>
                   You would choose to join a game because you get an equal
                   chance to earn all of the money deposited by all other
-                  players. It's a perfectly fair gamble, and the pot grows
+                  players. It&apos;s a perfectly fair gamble, and the pot grows
                   directly commensurate with the number of players.
                 </p>
               </>
@@ -73,13 +73,13 @@ export default function Home() {
             {isPushRoundOpen && (
               <>
                 <p>
-                  After the initial Join Round, the game transitions to it's
+                  After the initial Join Round, the game transitions to it&apos;s
                   adversarial form.
                 </p>
                 <p>
                   A push round begins when a user who has joined the game
                   decides to <strong>push</strong> the game into the next round.
-                  They do so by depositing another 0.01ETH and calling{" "}
+                  They do so by depositing another 0.01ETH and calling
                   <strong>push().</strong>
                 </p>
                 <p>
@@ -124,7 +124,7 @@ export default function Home() {
             </h4>
             {isMetagameOpen && (
               <>
-                <p>This scenario is modelled after the prisoner's dilemma.</p>
+                <p>This scenario is modelled after the prisoner&apos;s dilemma.</p>
                 <p>
                   Obviously, the most ideal way to play is to Join, then Push
                   once and be the only person to Push, guaranteeing a win for
@@ -150,7 +150,7 @@ export default function Home() {
             {isFunOpen && (
               <>
                 <p>
-                  The point of this game is to help you explore your feelings.{" "}
+                  The point of this game is to help you explore your feelings.
                   <br />
                   How badly do you want to betray strangers? <br />
                   How will you react to being able to betray strangers? <br />
